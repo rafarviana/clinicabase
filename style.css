@@ -80,7 +80,7 @@ nav a:hover{
     z-index:2;
     color:#fff;
     width:90%;
-    max-width:700px;
+    max-width:800px;
 }
 
 .hero h2{
@@ -91,24 +91,6 @@ nav a:hover{
 .hero p{
     font-size:22px;
     line-height:1.6;
-    margin-bottom:35px;
-}
-
-.btn{
-    display:inline-block;
-    padding:16px 35px;
-    background:#0b7dda;
-    color:#fff;
-    text-decoration:none;
-    border-radius:50px;
-    font-size:18px;
-    font-weight:bold;
-    transition:0.3s;
-}
-
-.btn:hover{
-    background:#095ea5;
-    transform:scale(1.05);
 }
 
 section{
@@ -196,8 +178,47 @@ section h2{
 }
 
 .contato p{
-    margin-bottom:30px;
+    margin-bottom:20px;
     font-size:20px;
+}
+
+.infos-contato{
+    margin-bottom:30px;
+}
+
+.botoes-contato{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:16px 35px;
+    background:#0b7dda;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.btn-instagram{
+    background:#e1306c;
+}
+
+.btn-facebook{
+    background:#1877f2;
+}
+
+.btn-maps{
+    background:#34a853;
 }
 
 footer{
@@ -223,11 +244,6 @@ footer{
     text-decoration:none;
     box-shadow:0 5px 15px rgba(0,0,0,0.3);
     z-index:999;
-    transition:0.3s;
-}
-
-.whatsapp-fixo:hover{
-    transform:scale(1.1);
 }
 
 @media(max-width:768px){
